@@ -1,8 +1,8 @@
 {
-    "name": "ALTKEMIST'S BASE64",
-    "short_name": "B64",
+    "name": "ALTKEMIST'S STRINGS",
+    "short_name": "STR",
     "theme_color": "#000000",
     "background_color": "#ffffff",
     "display": "standalone",
-    "start_url": "/shopping_list/index.html"
+    "start_url": "/strings/index.html"
 }

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://altkemist.github.io/altkemist/img/ALTKEMIST_ico.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="./public/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./public/vendor/fontawesome_5_13_0/css/all.min.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <title>Generate random string</title>
+</head>
+<body class="bg-grey">
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-10 offset-1  bg-content">
+                <div class="row mt-5">
+                    <div class="col text-center font-weight-bold h1">
+                        Generate Random String
+                    </div>
+                </div>
+                <div class="row mt-1">
+                    <div class="col-12 col-md-10 text-right">
+                        <small class="copyButton" id="copyButtonId" data-id="@item.Type" data-clipboard-action="copy" data-clipboard-target="#generated">Copy to clipboard</small>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8 text-center">
+                        <input class="generated-text form-control form-control-lg text-center" type="text" value="" id="generated">
+                    </div>
+                </div>
+                <div class="row mt-2 justify-content-center">
+                    <div class="col-12 col-md-8 text-center">
+                        <button type="button" class="btn btn-success btn-lg btn-block" onclick="generate_string()">GENERATE</button>
+                    </div>
+                </div>
+                <div class="row mt-2 justify-content-center">
+                    <div class="col-12 col-md-8 text-center h6">
+                        Note: the generated strings aren't stored.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--Scripts-->
+    <script src="./public/vendor/jquery/jquery-3.3.1.min.js"></script>
+    <script src="./public/vendor/popper/popper.min.js"></script>
+    <script src="./public/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./public/vendor/clipboardjs/clipboard.min.js"></script>
+    <script src="./public/js/main.js"></script>
+</body>
+</html>

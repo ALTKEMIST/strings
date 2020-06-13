@@ -15,3 +15,44 @@ textarea {
   a:visited{
       text-decoration: none;
   }
+
+  /*input:read-only {
+    background-color: white;
+  }
+
+  input:-moz-read-only { 
+    background-color: white;
+  }
+
+.generated-text{
+    width: 100%;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: black;
+  }*/
+
+  .bg-grey{
+      background-color: #ebebeb;
+  }
+
+  .bg-content{
+      background-color: white;
+      border-style: solid;
+      border-width: 2px 2px 2px 2px;
+      border-color: black;
+      height: 50vh;
+      margin-top: 25vh;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .bg-content{
+        height: 70vh;
+        margin-top: 15vh;
+    }
+  }
+
+  .btn{
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: black;
+  }
